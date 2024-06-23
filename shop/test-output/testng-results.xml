@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T07:56:20 IST" name="Default suite" finished-at="2024-04-15T07:58:00 IST" duration-ms="99481">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T07:56:20 IST" name="Default test" finished-at="2024-04-15T07:58:00 IST" duration-ms="99481">
+      <class name="Testcases.ShopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ShopTest@19e4653c]" started-at="2024-04-15T07:56:20 IST" name="setup" finished-at="2024-04-15T07:56:28 IST" duration-ms="7833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SigninTest(java.lang.String)[pri:0, instance:Testcases.ShopTest@19e4653c]" started-at="2024-04-15T07:56:28 IST" name="SigninTest" data-provider="Details" finished-at="2024-04-15T07:57:29 IST" duration-ms="60619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani0@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:1, instance:Testcases.ShopTest@19e4653c]" started-at="2024-04-15T07:57:29 IST" name="LoginTest" data-provider="creditials" finished-at="2024-04-15T07:57:38 IST" duration-ms="8889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nani123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hihello@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="AddMyAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Testcases.ShopTest@19e4653c]" started-at="2024-04-15T07:57:38 IST" name="AddMyAdd" data-provider="creditials1" finished-at="2024-04-15T07:58:00 IST" duration-ms="21944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NeoGen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beside Bhandan bank,subbaraju street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravulapalem]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rajahamundry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[533238]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMyAdd -->
+      </class> <!-- Testcases.ShopTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
